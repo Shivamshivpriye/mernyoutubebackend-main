@@ -6,8 +6,6 @@ const cors = require("cors");
 const router=require("./Routes/router");
 const PORT = process.env.PORT || 6010
 
-
-const cors = require('cors');
 const corsOptions ={
     origin:'http://localhost:3000', 
     credentials:true,            //access-control-allow-credentials:true
